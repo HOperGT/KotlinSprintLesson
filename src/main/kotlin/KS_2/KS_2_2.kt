@@ -2,17 +2,17 @@ package org.example.KS_2
 
 fun main() {
 
-    val EmployeeCount = 50
-    val EmployeeSalary = 30_000
+    val employeeCount = 50
+    val employeeSalary = 30_000
 
     val junCount = 30
     val junSalary = 20_000
 
-    val totalSalaryEmployees = EmployeeCount * EmployeeSalary
+    val totalSalaryEmployees = employeeCount * employeeSalary
     val totalSalaryTrainees = junCount * junSalary
     val totalSalaryAllEmployees = totalSalaryEmployees + totalSalaryTrainees
 
-    val totalEmployeeCount = EmployeeCount + junCount
+    val totalEmployeeCount = employeeCount + junCount
     val averageSalaryPerEmployee = totalSalaryAllEmployees.toDouble() / totalEmployeeCount
 
     println(
