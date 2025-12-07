@@ -15,7 +15,6 @@ fun main() {
     val initialAmount: Double = 70_000.0
     val annualRate: Double = 16.7 / 100
     val years: Int = 20
-
     val finalAmount = initialAmount * Math.pow(1 + annualRate, years.toDouble())
 
     println("${"%.3f".format(finalAmount)} ₽")
