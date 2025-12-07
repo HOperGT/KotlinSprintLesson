@@ -12,8 +12,8 @@ package org.example.KS_2
 
 fun main() {
 
-    val initialAmount: Double = 70_000.0       // начальная сумма в рублях
-    val annualRate: Double = 16.7 / 100        // 16.7% → 0.167
+    val initialAmount: Double = 70_000.0
+    val annualRate: Double = 16.7 / 100
     val years: Int = 20
 
     val finalAmount = initialAmount * Math.pow(1 + annualRate, years.toDouble())
